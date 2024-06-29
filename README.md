@@ -1,70 +1,52 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![image](https://github.com/carthworks/createOnePagedeviceDetails/assets/78200/6641b365-4f46-4721-82cc-eb2dce988125)
 
-## Available Scripts
+Machine Test: ReactJS Device List Application
+Objective:
+Create a one-page ReactJS application that displays a list of devices with their details. The devices' data is stored in a devices.json file, which should be loaded dynamically via an HTTP request. Once completed, upload the project to GitHub.
 
-In the project directory, you can run:
+Instructions:
+Set Up the React Project:
 
-### `npm start`
+Use create-react-app to initialize the project.
+Ensure that the project follows best practices and has a clean structure.
+Fetch Devices Data:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Fetch the device data from the provided URL.
+Handle loading and error states appropriately.
+Display Devices:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Create a component to display the list of devices.
+Each device should display its name, description, location, and last result.
+Styling:
 
-### `npm test`
+Use CSS to style the application.
+Ensure the application is responsive and visually appealing.
+Push to GitHub:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Commit your code and push it to a new repository on GitHub.
+If you do not have a GitHub account, create one.
+Provided API Endpoint:
+Fetch the devices data from the following URL: https://gist.githubusercontent.com/Tehnix/c9d53939b2ed600b321fed8e1898f3a7/raw/dfe7adaf6f73e320ae4ed42761d6b50cf25eb569/devices.json
 
-### `npm run build`
+{
+  "devices": [
+    {"name": "Device 1", "description": "This is device 1", "location": "Living room", "lastResult": 123141},
+    {"name": "Device 2", "description": "This is device 2", "location": "Office", "lastResult": 267},
+    ...
+  ]
+}
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Submission:
+Submit the GitHub repository link with the completed project.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Evaluation Criteria:
+Correctness and functionality of the application.
+Code quality and structure.
+Handling of asynchronous operations and error states.
+Styling and responsiveness of the UI.
+Proper use of Git and GitHub for version control.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+This test will help evaluate your skills in setting up a React project, fetching data asynchronously, handling state, and styling components. Good luck!
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
